@@ -17,7 +17,7 @@ void Question1() {
   // Initializing the elements vector.
   for (int i = 0; i < number_of_items; i++) {
     int element;
-    elements[i] = 0;
+    elements.push_back(0);
   }
 }
 

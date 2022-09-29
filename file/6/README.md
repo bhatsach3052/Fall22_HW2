@@ -1,0 +1,2 @@
+elements[i] accesses memory which is not part of the vector yet. Instead using elements.push_back(0) initializes the lements vector correctly 
+The address for a is not defined. Thus we need to provide an address to pointer a before accessing it. 
